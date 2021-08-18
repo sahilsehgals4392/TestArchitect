@@ -32,7 +32,8 @@ public class JsonToJava {
         }
         System.out.println(System.getProperty("user.dir"));
         ObjectMapper objectMapper = new ObjectMapper();
-        objectMapper.writeValue(new File(System.getProperty("user.dir") + "//CustomerDetails.json"), customerDetails);
+        objectMapper.writeValue
+                (new File(System.getProperty("user.dir") + "//CustomerDetails.json"), customerDetails);
         conn.close();
 
     }
